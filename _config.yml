@@ -61,9 +61,9 @@ content:
         # link: 
         # link_text: Project Website
         additional_links: 
-          - title: Text-to-Image Generator
-            icon: fab fa-github
-            url: github.com/Dongckim/Text-to-Image-Generator
+          - title:  Text-to-Image Generator
+            icon:  fab fa-github
+            url:  github.com/Dongckim/Text-to-Image-Generator
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
