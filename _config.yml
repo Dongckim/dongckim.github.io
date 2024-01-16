@@ -67,11 +67,10 @@ content:
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-          |
-          ![Thumbnail](/dongckim.github.io/images/text-to-image.png)
         quote: >
           Village is a service that facilitates the convenient and cost-effective rental of desired items in the local vicinity through location-based services.
         description: | # this will include new lines to allow paragraphs
+          ![Thumbnail](/dongckim.github.io/images/text-to-image.png)
           In my recent development endeavors, I delved into the internals of libraries like **react-dropzone** and **browser-image-compression**, attempting to dissect and implement their internal logic. My focus was on understanding the intricacies of these libraries to enhance my proficiency in React.
 
           Through these experiences, I've honed my skills in crafting robust and reusable components, fostering a deep appreciation for the intersection of efficient state management and thoughtful component design in React.
