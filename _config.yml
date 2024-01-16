@@ -25,7 +25,7 @@ instagram_username: dck_alx
 linkedin_username: dongckim99
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: dckalx
+youtube_username: channel/UCAbbpoofQ84WOnxcpxe8Y7g
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -48,16 +48,35 @@ youtube_username: dckalx
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  As a passionate student developer with a keen interest in entrepreneurship, I bring a solid background in iOS and frontend development, complemented by ongoing studies in machine learning and AI. My journey in technology has equipped me with the skills to innovate and create, and I am determined to channel these abilities into founding a startup that revolutionizes our world.
+  As a passionate student developer with a keen interest in entrepreneurship, I bring a solid background in iOS and frontend development, complemented by ongoing studies in deep machine learning and AI. My journey in technology has equipped me with the skills to innovate and create, and I am determined to channel these abilities into founding a startup that revolutionizes our world.
 
-  With hands-on experience in iOS and frontend skills, coupled with a dedication to mastering the intricacies of deep machine learning and AI, I am poised to contribute to the forefront of technological advancement. My dream is to lead a startup that leverages these technologies to bring about transformative changes, leaving an indelible mark on industries and society.
+  My dream is to lead a start-up that leverages these technologies to bring about transformative changes, leaving an indelible mark on industries and society.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Used Item Rental Platform
+        title: Text-to-Image Generator
+        # link: 
+        # link_text: Project Website
+        additional_links: 
+          # - title:  
+          #   icon:
+          #   url: 
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          ![Trees](/dongckim.github.io/images/text-to-image.png "Thumbnail")
+          Village is a service that facilitates the convenient and cost-effective rental of desired items in the local vicinity through location-based services.
+        description: | # this will include new lines to allow paragraphs
+          In my recent development endeavors, I delved into the internals of libraries like **react-dropzone** and **browser-image-compression**, attempting to dissect and implement their internal logic. My focus was on understanding the intricacies of these libraries to enhance my proficiency in React.
+
+          Through these experiences, I've honed my skills in crafting robust and reusable components, fostering a deep appreciation for the intersection of efficient state management and thoughtful component design in React.
+
+      - layout: top-middle
+        title: Used Item Rental Platform, Village
         link: https://village99.store/
         # link_text: Project Website
         additional_links:
@@ -72,9 +91,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           In my recent development endeavors, I delved into the internals of libraries like **react-dropzone** and **browser-image-compression**, attempting to dissect and implement their internal logic. My focus was on understanding the intricacies of these libraries to enhance my proficiency in React.
 
-          Additionally, I explored state management using *Tanstack-query*, emphasizing the importance of effective state control. This exploration was pivotal in my efforts to create React code that not only prioritizes modularity but also incorporates considerations for component reusability.
-
-          Through these experiences, I've honed my skills in crafting robust and reusable components, fostering a deep appreciation for the intersection of efficient state management and thoughtful component design in React development.
+          Through these experiences, I've honed my skills in crafting robust and reusable components, fostering a deep appreciation for the intersection of efficient state management and thoughtful component design in React.
 
 
 
