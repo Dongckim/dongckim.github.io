@@ -70,7 +70,7 @@ content:
         quote: >
           Village is a service that facilitates the convenient and cost-effective rental of desired items in the local vicinity through location-based services.
         description: | # this will include new lines to allow paragraphs
-          ![Thumbnail](https://github.com/Dongckim/dongckim.github.io/images/text-to-image.png)
+          ![Thumbnail](https://github.com/Dongckim/dongckim.github.io/images/text-to-image.png "Thumbnail")
 
           In my recent development endeavors, I delved into the internals of libraries like **react-dropzone** and **browser-image-compression**, attempting to dissect and implement their internal logic. My focus was on understanding the intricacies of these libraries to enhance my proficiency in React.
 
