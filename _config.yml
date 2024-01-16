@@ -48,9 +48,9 @@ youtube_username: dckalx
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  As a passionate student developer with a keen interest in entrepreneurship, I bring a solid background in iOS and frontend development, complemented by ongoing studies in machine learning and AI. My journey in technology has equipped me with the skills to innovate and create, and I am determined to channel these abilities into founding a startup that revolutionizes our world.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  With hands-on experience in iOS and frontend skills, coupled with a dedication to mastering the intricacies of deep machine learning and AI, I am poised to contribute to the forefront of technological advancement. My dream is to lead a startup that leverages these technologies to bring about transformative changes, leaving an indelible mark on industries and society.
 
 content:
   - title: Projects # Title for the section
