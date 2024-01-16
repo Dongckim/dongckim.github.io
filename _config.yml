@@ -57,20 +57,27 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Used Item Rental Platform
+        link: https://village99.store/
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Village
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/Dongckim/Village_FE
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          Village is a service that facilitates the convenient and cost-effective rental of desired items in the local vicinity through location-based services.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          In my recent development endeavors, I delved into the internals of libraries like **react-dropzone** and **browser-image-compression**, attempting to dissect and implement their internal logic. My focus was on understanding the intricacies of these libraries to enhance my proficiency in React.
+
+          Additionally, I explored state management using *Tanstack-query*, emphasizing the importance of effective state control. This exploration was pivotal in my efforts to create React code that not only prioritizes modularity but also incorporates considerations for component reusability.
+
+          Through these experiences, I've honed my skills in crafting robust and reusable components, fostering a deep appreciation for the intersection of efficient state management and thoughtful component design in React development.
+
+
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
