@@ -57,7 +57,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Project of iOS application ~ing
+        title: Project of iOS Application ~ing
         link:
         # link_text: Project Website
         additional_links: 
@@ -86,9 +86,11 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is an artificial intelligence model developed as part of a group project by OUTTA, the artificial intelligence organization at Seoul National University. The model takes text input and displays the corresponding image.
+          This is an artificial intelligence model developed as part of a group project by OUTTA, the artificial intelligence organization at Seoul National University.
         description: | # this will include new lines to allow paragraphs
-          ![Thumbnail](dongckim.github.io/_site/images/text-to-image.png "Thumbnail")
+          ![Thumbnail](/dongckim.github.io/_site/images/text-to-image.png "Thumbnail")
+
+          The model takes text input and displays the corresponding image.
 
           Employed a StackGAN framework, leveraging the innovative Language-Free Training structure inspired by the LAFITE: Towards Language-Free Training for Text-to-image Generation by Microsoft Research, to produce a diverse array of outputs, marking a standout achievement in the Text-to-image project.
 
@@ -115,15 +117,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
+        title: Military Services
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Armed Medic
+        caption: September 2021 - January 2023
+        # quote: >
+        #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+          I fulfilled my mandatory military service as a male citizen of South Korea for a duration of 18 months.
+          
+      - layout: left
+        title: Military Services
         link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Armed Medic
+        caption: September 2021 - January 2023
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          I fulfilled my mandatory military service as a male citizen of South Korea for a duration of 18 months.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
