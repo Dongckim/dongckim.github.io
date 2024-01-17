@@ -25,7 +25,7 @@ instagram_username: dck_alx
 linkedin_username: dongckim99
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: channel/UCAbbpoofQ84WOnxcpxe8Y7g
+youtube_username: channel//UCAbbpoofQ84WOnxcpxe8Y7g
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -75,7 +75,7 @@ content:
 
     
       - layout: top-middle
-        title: Text-to-Image Generator
+        title: Text-to-Image Generator Model
         link:
         # link_text: Project Website
         additional_links: 
@@ -88,6 +88,7 @@ content:
         quote: >
           This is an artificial intelligence model developed as part of a group project by OUTTA, the artificial intelligence organization at Seoul National University.
         description: | # this will include new lines to allow paragraphs
+          ![thumb](dongckim.github.io/images/text-to-image.jpg "thumb")
           The model takes text input and displays the corresponding image. Employed a StackGAN framework, leveraging the innovative Language-Free Training structure inspired by the LAFITE: Towards Language-Free Training for Text-to-image Generation by Microsoft Research, to produce a diverse array of outputs, marking a standout achievement in the Text-to-image project.
 
 
@@ -168,17 +169,17 @@ content:
         quote: >
           Ghent University, established in 1817, is a leading Belgian institution with a global reputation for excellence in research and education across various disciplines.
         description: | # this will include new lines to allow paragraphs
-          During my time at Ghent I learnt most of my key skills that have I have taken through my career such as Deep Machine Learning and working to tight deadlines by 240credits. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at Ghent I learnt most of my key skills that have I have taken through my career such as Deep Machine Learning and working to tight deadlines by 240credits.
 
           I spent a lot of my time as a Student Council as a *Junior Year Representative* and Founder of Student Youtube Club named 'G-entertainment'.
 
-  - title: A Little More About Me
+  - title: When I'm Not Programming
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
+      - Work-out
+      - Football
+      - 
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
       Look at this cool image  
