@@ -114,7 +114,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 2023 IGC Start-Up Idea Contest
+        title: 2023 IGC Start-Up Contest
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Top Team
@@ -134,13 +134,13 @@ content:
           OUTTA is an organization formed by individuals who aspire to bring about change in the current society where personal competence is narrowly assessed by grades, and the breadth of choices is often quantified
         description: | # this will include new lines to allow paragraphs
           I first encountered machine learning in this environment, gaining insights into its direct applications. In the final project, I received an award for excellence, and on a personal level, I was recognized as an outstanding participant.
-          
+
       - layout: left
         title: Hanghae 99days Developer Course
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Top Participants
-        caption: January 2023 - December 2023
+        caption: January 2023 - May 2023
         quote: >
           This is where I began my journey of learning frontend development.
         description: | # this will include new lines to allow paragraphs
