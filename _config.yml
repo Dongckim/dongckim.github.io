@@ -68,13 +68,11 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Village is a service that facilitates the convenient and cost-effective rental of desired items in the local vicinity through location-based services.
+          This is an artificial intelligence model developed as part of a group project by OUTTA, the artificial intelligence organization at Seoul National University. The model takes text input and displays the corresponding image.
         description: | # this will include new lines to allow paragraphs
-          ![Thumbnail](/dongckim.github.io/blob/main/images/text-to-image.png "Thumbnail")
+          ![Thumbnail](dongckim.github.io/images/text-to-image.png "Thumbnail")
 
-          In my recent development endeavors, I delved into the internals of libraries like **react-dropzone** and **browser-image-compression**, attempting to dissect and implement their internal logic. My focus was on understanding the intricacies of these libraries to enhance my proficiency in React.
-
-          Through these experiences, I've honed my skills in crafting robust and reusable components, fostering a deep appreciation for the intersection of efficient state management and thoughtful component design in React.
+          Employed a StackGAN framework, leveraging the innovative Language-Free Training structure inspired by the LAFITE: Towards Language-Free Training for Text-to-image Generation by Microsoft Research, to produce a diverse array of outputs, marking a standout achievement in the Text-to-image project.
 
       - layout: top-middle
         title: Used Item Rental Platform, Village
