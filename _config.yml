@@ -58,7 +58,7 @@ content:
     content:
       - layout: top-middle
         title: Text-to-Image Generator
-        # link: 
+        link:
         # link_text: Project Website
         additional_links: 
           - title:  Text-to-Image Generator
