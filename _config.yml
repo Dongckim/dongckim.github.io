@@ -70,7 +70,7 @@ content:
         quote: >
           This is a project now I am developing! see you sooooon :)
         description: | # this will include new lines to allow paragraphs
-          This is a project now I am developing! see you sooooon :)
+          To be determined
 
 
     
@@ -89,6 +89,7 @@ content:
           This is an artificial intelligence model developed as part of a group project by OUTTA, the artificial intelligence organization at Seoul National University.
         description: | # this will include new lines to allow paragraphs
           The model takes text input and displays the corresponding image. Employed a StackGAN framework, leveraging the innovative Language-Free Training structure inspired by the LAFITE: Towards Language-Free Training for Text-to-image Generation by Microsoft Research, to produce a diverse array of outputs, marking a standout achievement in the Text-to-image project.
+
 
       - layout: top-middle
         title: Used Item Rental Platform, Village
@@ -122,7 +123,30 @@ content:
           I led the development of a one-stop document application platform to replace the traditional complex application screening process.
         description: | # this will include new lines to allow paragraphs
           I utilized a model similar to anti-GPT, specifically focusing on creating a model capable of detecting photoshopped faces. I dedicated efforts to expose the false enhancements in the appearance of individuals in the entertainment industry.
+      
+      - layout: left
+        title: OUTTA AI bootcamp
+        link: https://outta.ai/
+        # link_text: boringcompany.com
+        sub_title: Top Team, Top Participants
+        caption: June 2023 - August 2023
+        quote: >
+          OUTTA is an organization formed by individuals who aspire to bring about change in the current society where personal competence is narrowly assessed by grades, and the breadth of choices is often quantified
+        description: | # this will include new lines to allow paragraphs
+          I first encountered machine learning in this environment, gaining insights into its direct applications. In the final project, I received an award for excellence, and on a personal level, I was recognized as an outstanding participant.
           
+      - layout: left
+        title: Hanghae 99days Developer Course
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Top Participants
+        caption: January 2023 - December 2023
+        quote: >
+          This is where I began my journey of learning frontend development.
+        description: | # this will include new lines to allow paragraphs
+          I started from the basics of JavaScript and progressed to developing service platforms. Collaborating with backend developers and designers, I gained a clear understanding of the essential role and responsibilities of a developer.
+          
+        
       - layout: left
         title: Military Services
         # link: boringcompany.com
@@ -144,7 +168,7 @@ content:
         quote: >
           Ghent University, established in 1817, is a leading Belgian institution with a global reputation for excellence in research and education across various disciplines.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as Deep Machine Learning and working to tight deadlines by 240credits. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at Ghent I learnt most of my key skills that have I have taken through my career such as Deep Machine Learning and working to tight deadlines by 240credits. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
           I spent a lot of my time as a Student Council as a *Junior Year Representative* and Founder of Student Youtube Club named 'G-entertainment'.
 
