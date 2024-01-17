@@ -88,11 +88,7 @@ content:
         quote: >
           This is an artificial intelligence model developed as part of a group project by OUTTA, the artificial intelligence organization at Seoul National University.
         description: | # this will include new lines to allow paragraphs
-          ![Thumbnail](/dongckim.github.io/_site/images/text-to-image.png "Thumbnail")
-
-          The model takes text input and displays the corresponding image.
-
-          Employed a StackGAN framework, leveraging the innovative Language-Free Training structure inspired by the LAFITE: Towards Language-Free Training for Text-to-image Generation by Microsoft Research, to produce a diverse array of outputs, marking a standout achievement in the Text-to-image project.
+          The model takes text input and displays the corresponding image. Employed a StackGAN framework, leveraging the innovative Language-Free Training structure inspired by the LAFITE: Towards Language-Free Training for Text-to-image Generation by Microsoft Research, to produce a diverse array of outputs, marking a standout achievement in the Text-to-image project.
 
       - layout: top-middle
         title: Used Item Rental Platform, Village
@@ -117,6 +113,17 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: 2023 IGC Start-Up Idea Contest
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Top Team
+        caption: November 2023 - December 2023
+        quote: >
+          I led the development of a one-stop document application platform to replace the traditional complex application screening process.
+        description: | # this will include new lines to allow paragraphs
+          I utilized a model similar to anti-GPT, specifically focusing on creating a model capable of detecting photoshopped faces. I dedicated efforts to expose the false enhancements in the appearance of individuals in the entertainment industry.
+          
+      - layout: left
         title: Military Services
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -126,31 +133,20 @@ content:
         #   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
           I fulfilled my mandatory military service as a male citizen of South Korea for a duration of 18 months.
-          
-      - layout: left
-        title: Military Services
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Armed Medic
-        caption: September 2021 - January 2023
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-          I fulfilled my mandatory military service as a male citizen of South Korea for a duration of 18 months.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Ghent University
+        caption: 2019 - 2021
+        sub_title: BSc Molecular Biotechnology
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          Ghent University, established in 1817, is a leading Belgian institution with a global reputation for excellence in research and education across various disciplines.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as Deep Machine Learning and working to tight deadlines by 240credits. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          I spent a lot of my time as a Student Council as a *Junior Year Representative* and Founder of Student Youtube Club named 'G-entertainment'.
 
   - title: A Little More About Me
     layout: text
