@@ -32,7 +32,7 @@ linkedin_username: dongckim99
 # Additional icon links
 additional_links:
 - title: threads
-  icon: fa-brands fa-threads
+  icon: fab fa-threads
   url: https://www.threads.net/@dck_alx
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
