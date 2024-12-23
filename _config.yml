@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : true
 words_per_minute         : 200
 comments:
-  provider               : disqus"
+  provider               : "disqus"
   disqus:
     shortname            : "dongckim"
   discourse:
