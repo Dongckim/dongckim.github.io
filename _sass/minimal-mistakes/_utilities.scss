@@ -265,6 +265,7 @@ body:hover .visually-hidden button {
   .fa-linkedin,
   .fa-linkedin-in {
     color: $linkedin-color;
+    margin-left: 0.22em;
   }
 
   .fa-mastodon,
@@ -597,3 +598,10 @@ a.reversefootnote {
   width: 50%;
 }
 
+.img-width-seventy {
+  width: 70%;
+}
+
+.fontsize-scaleup {
+  font-size:xx-large;
+}
