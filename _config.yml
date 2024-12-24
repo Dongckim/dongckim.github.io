@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Dongchan Alex Kim"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/sample.png"
   bio              : "Developer with a passion for innovating the world through code, developer you'd want to collaborate with—eager to create together."
   location         : "NY, United States"
   email            : #"dongchan.kim.1@stonybrook.edu"
@@ -113,18 +113,19 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "dongchan.kim.1@stonybrook.edu"
-    - label: "Website"
+    - label: "CV"
       icon: "fas fa-fw fa-link"
-      url: "https://dongckim.github.io"
+      url: "https://drive.google.com/file/d/1x_hRLFCrmgHpUMaw1_aoNK8b6vB2hiDJ/view?usp=sharing"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dongckim"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/dck_alx"
-    # - label: "CV"
-    #   icon: "fa-solid fa-file"
-    #   url: "https://facebook.com/"
+    # - label: "YouTube"
+    #   icon: "fab fa-youtube"
+    #   url: "https://instagram.com/dck_alx"
+
 
 # Site Footer
 footer:
@@ -270,9 +271,13 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label:  On this page
+      toc_icon: "fas fa-code-branch"
