@@ -113,15 +113,24 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "dongchan.kim.1@stonybrook.edu"
+
     - label: "CV"
       icon: "fas fa-fw fa-link"
       url: "https://drive.google.com/file/d/1x_hRLFCrmgHpUMaw1_aoNK8b6vB2hiDJ/view?usp=sharing"
+
+    - label: " LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/dongckim99/"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dongckim"
+
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/dck_alx"
+
+    
     # - label: "YouTube"
     #   icon: "fab fa-youtube"
     #   url: "https://instagram.com/dck_alx"
@@ -133,6 +142,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dongckim"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/dongckim99/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/dck_alx"
