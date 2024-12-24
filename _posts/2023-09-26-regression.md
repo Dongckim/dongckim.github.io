@@ -1,9 +1,9 @@
 ---
 title:  "머신러닝 회귀 예측"
 layout: single
-toc: true
-toc_sticky: true
-toc_label: 목차
+Typora-root-url: ../
+categories: Machine_Learning
+tag: [python]
 ---
 
 
