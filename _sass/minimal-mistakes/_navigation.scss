@@ -84,13 +84,13 @@
       border-radius: 0;
 
       &:hover {
-        color: $link-color-hover;
+        color: $toc-color;
       }
 
       &.current,
       &.current.disabled {
         color: #fff;
-        background: $primary-color;
+        background: $toc-color;
       }
 
       &.disabled {
