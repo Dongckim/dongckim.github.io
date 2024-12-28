@@ -17,6 +17,7 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 -----
 + The State University of New York, Stony Brook University, Major in Technological Systems Management, Specialized in *Computer Science*
 + Vice President, LAMBDA Side Project Club
++ Ministry of Science and ICT, Youth SW Mentorship Hackathon, Served as **Judge and Mentor Coach**
 + 2024 Google Saessak Hackathon, Seoul City Competition, **Top 10 Finalist** (Honorable Prize)
 + Seoul National University OUTTA AI Deep Learning Camp, **Double Award Winner** (Participant Excellence Award, Team Excellence Award)
 + IGC Startup Idea Competition, **Grand 2nd Prize Winner**
@@ -25,7 +26,6 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 + Student Council, **Junior Year Representative**
 + Republic of Korea Army, **Completed Military Service** as a Medic
 + 2024 AI Education City Program, **Academic Research Mentor** for Incheon Jinsan Science High School
-+ Ministry of Science and ICT, Youth SW Mentorship Hackathon, Served as **Judge and Mentor Coach**
 
 ## Key Skills
 -----
@@ -56,7 +56,7 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
         <br>
     </div>
     <br>
-    <div class = "img-width-half align-center">
+    <div class = "img-width-seventy align-center">
         {% include video id="I8Qhd0vCUIc" provider="youtube"%}
     </div>   
 </div>
