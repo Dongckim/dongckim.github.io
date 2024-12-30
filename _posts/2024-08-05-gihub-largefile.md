@@ -2,8 +2,8 @@
 title: "Github 대용량 파일 업로드 삽질...."
 layout: single
 Typora-root-url: ../
-categories: TroubleShooting
-tag: [Git, Github]
+categories: Git
+tag: TroubleShooting
 use_math: true
 ---
 
