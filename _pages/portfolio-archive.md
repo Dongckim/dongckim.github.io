@@ -16,7 +16,7 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 ## Career
 -----
 + The State University of New York, Stony Brook University, Major in Technological Systems Management, Specialized in *Computer Science*
-+ Vice President, LAMBDA Side Project Club
++ **Vice President**, LAMBDA Side Project Club
 + Ministry of Science and ICT, Youth SW Mentorship Hackathon, Served as **Judge and Mentor Coach**
 + 2024 Google Saessak Hackathon, Seoul City Competition, **Top 10 Finalist** (Honorable Prize)
 + Seoul National University OUTTA AI Deep Learning Camp, **Double Award Winner** (Participant Excellence Award, Team Excellence Award)
@@ -24,8 +24,8 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 + Team Sparta 99 Club 3rd Cohort, **Python** Coding Test Mentor (Outsourcing Contract)
 + Team Sparta 99 Club 4th Cohort, **Java** Coding Test Mentor (Outsourcing Contract)
 + Student Council, **Junior Year Representative**
-+ Republic of Korea Army, **Completed Military Service** as a Medic
 + 2024 AI Education City Program, **Academic Research Mentor** for Incheon Jinsan Science High School
++ Republic of Korea Army, **Completed Military Service** as a Medic
 
 ## Key Skills
 -----
