@@ -8,6 +8,8 @@ tag: XR
 ---
 ![Alt text]({{site.url}}/images/2024-12-29-unity-xr-interaction-core/Unity.png)
 
+Unity 개념학습 첫번째 포스팅
+
 ## XR Interaction Toolkit 개념과 핵심 기능
 
 XR Interaction Toolkit은 VR 및 AR 경험을 제작하기 위한 고수준 구성 요소 기반 상호작용 시스템으로, Unity 입력 이벤트를 활용해 3D 및 UI 상호작용을 지원하는 프레임워크를 제공한다.
