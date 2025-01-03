@@ -6,9 +6,10 @@ categories: Unity
 tag: XR
 # use_math: true
 ---
-![Alt text]({{site.url}}/images/2024-12-29-unity-xr-interaction-core/Unity.png)
 
-Unity 개념학습 첫번째 포스팅
+Unity 개념학습 첫 번째 포스팅
+
+![Alt text]({{site.url}}/images/2024-12-29-unity-xr-interaction-core/Unity.png)
 
 ## XR Interaction Toolkit 개념과 핵심 기능
 
