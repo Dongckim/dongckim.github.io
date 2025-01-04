@@ -9,7 +9,7 @@ classes: wide
 
 -----
 Hi, there👋👋 <br>
-I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook University. I’m passionate about building immersive AR/VR experiences using `Unity` and `Three.js`. I love turning creative ideas into interactive realities that make people say, “Wow, this feels real!” 😲 <br>
+I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook University. I’m passionate about building immersive AR/VR experiences using `Unity` and `Three.js`. I love turning creative ideas into interactive realities that make people say, “Wow.. this feels real!” 😲 <br>
 
 ![](/images/about_1.jpeg){: .img-width-seventy .align-center}
 
