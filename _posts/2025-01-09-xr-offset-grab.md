@@ -15,3 +15,6 @@ XR Grab Interactable을 확장하여 Select할 때 Interactor와 Attach Point로
 ### 원리
 XR Grab Interactable의 기능을 확장하여 Select Enter하여 Interactor의 Attach Point를 Interactable의 월드 포지션과 방향으로 설정하고, Select Exit할 때 원상 복구 시키는 방법을 사용함.
 - 자연스럽게 Interactor와 Interactable의 상대적인  위치와 방향을 유지할 수 있게 됨.
+
+### 만드는 방법
+Script 파일에 c# 파일을 만들어, XROffsetGrabInteractable이라는 파일 이름으로 C#파일을 만들고
