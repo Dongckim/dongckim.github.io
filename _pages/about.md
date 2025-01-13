@@ -1,17 +1,27 @@
 ---
 title: About Me
-layout: single
+layout: splash
 permalink: /about/
 collection: about
 entries_layout: grid
 classes: wide
+header:
+  image: /images/about_1.jpeg
+  teaser: /images/about_1.jpeg
+gallery:
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: /images/2023-09-26-first/zuckerberg.jpg
+    alt: "placeholder image 1"
+  - url: /assets/images/unsplash-gallery-image-2.jpg
+    image_path: /images/2023-09-26-first/zuckerberg.jpg
+    alt: "placeholder image 2"
+  - url: /assets/images/unsplash-gallery-image-3.jpg
+    image_path: /images/2023-09-26-first/zuckerberg.jpg
+    alt: "placeholder image 3"
 ---
 
------
 Hi, there👋👋 <br>
 I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook University. I’m passionate about building immersive AR/VR experiences using `Unity` and `Three.js`. I love turning creative ideas into interactive realities that make people say, “Wow.. this feels real!” 😲 <br>
-
-![](/images/about_1.jpeg){: .img-width-seventy .align-center}
 
 ## Career
 + The State University of New York, Stony Brook University, Major in Technological Systems Management, Specialized in *Computer Science*
@@ -26,6 +36,8 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 + Student Council, **Junior Year Representative**
 + 2024 AI Education City Program, **Academic Research Mentor** for Incheon Jinsan Science High School
 + Republic of Korea Army, **Completed Military Service** as a Medic
+
+{% include gallery caption="This is a sample gallery to go along with this case study." %}
 
 ## Key Skills
 + `Unity` / C#
@@ -82,7 +94,6 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 ![](/images/about2.jpg){: .img-width-half .align-center}
 
 I’ve been a dedicated fan of **Manchester United** ⚽️ for over 10 years and also root for the esports team **HLE(Hanwha Life Esports)** 🎮!
-
 
 
 
