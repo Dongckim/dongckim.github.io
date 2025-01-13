@@ -67,6 +67,16 @@ body {
     }
   }
 }
+.pageport {
+  @include breakpoint($large) {
+    float: right;
+    width: calc(100% - #{$right-sidebar-width});
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100%  - #{$right-sidebar-width});
+  } 
+}
 
 .page__title {
   margin-top: 0;

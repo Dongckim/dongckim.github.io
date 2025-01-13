@@ -1,8 +1,8 @@
 ---
 title: About Me
-layout: collection
-permalink: /portfolio/
-collection: portfolio
+layout: single
+permalink: /about/
+collection: about
 entries_layout: grid
 classes: wide
 ---
@@ -14,7 +14,6 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 ![](/images/about_1.jpeg){: .img-width-seventy .align-center}
 
 ## Career
------
 + The State University of New York, Stony Brook University, Major in Technological Systems Management, Specialized in *Computer Science*
 + **Vice President**, LAMBDA Side Project Club
 + Ministry of Science and ICT, Youth SW Mentorship Hackathon, Served as **Judge and Mentor Coach**
@@ -23,12 +22,12 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 + IGC Startup Idea Competition, **Grand 2nd Prize Winner**
 + Team Sparta 99 Club 3rd Cohort, **Python** Coding Test Mentor (Outsourcing Contract)
 + Team Sparta 99 Club 4th Cohort, **Java** Coding Test Mentor (Outsourcing Contract)
++ Team Sparta 99 Club 5th Cohort, **Java** Coding Test Mentor (Outsourcing Contract)
 + Student Council, **Junior Year Representative**
 + 2024 AI Education City Program, **Academic Research Mentor** for Incheon Jinsan Science High School
 + Republic of Korea Army, **Completed Military Service** as a Medic
 
 ## Key Skills
------
 + `Unity` / C#
 + `Three.js, React,js` / Javascript
 + `Machine Learning` / Python, Pytorch
@@ -37,7 +36,6 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 + `OpenGL`
 
 ## Projects
------
 <div class = "notice--warning">
     <h4> ACE (AWOONG Celeb) One-stop Application Screening Solution </h4>
     <div class = "img-width-seventy align-center">
@@ -81,7 +79,6 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 
 
 ## Hobbies
------
 ![](/images/about2.jpg){: .img-width-half .align-center}
 
 I’ve been a dedicated fan of **Manchester United** ⚽️ for over 10 years and also root for the esports team **HLE(Hanwha Life Esports)** 🎮!
@@ -90,7 +87,6 @@ I’ve been a dedicated fan of **Manchester United** ⚽️ for over 10 years an
 
 
 ## Contact
------
 + <dongchan.kim.1@stonybrook.edu>
 + [LinkedIn](https://www.linkedin.com/in/teddy-lee/)
 + [GitHub @dongckim](https://github.com/dongckim)

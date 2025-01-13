@@ -274,6 +274,10 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -293,3 +297,10 @@ defaults:
       toc_sticky: true
       toc_label:  On this page
       toc_icon: "fas fa-code-branch"
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single_port
+      author_profile: false
+      share: true
