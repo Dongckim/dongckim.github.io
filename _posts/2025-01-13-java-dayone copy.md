@@ -1,8 +1,8 @@
 ---
-title: "99클럽 JAVA 코딩테스트 예시 1일차 [문자열 내 P와 Y의 개수]"
+title: "99클럽 JAVA 코딩테스트 예시답안 1일차 [문자열 내 P와 Y의 개수]"
 layout: single
 Typora-root-url: ../
-categories: 99클럽
+categories: 99CLUB
 tag: java
 # use_math: true
 ---
