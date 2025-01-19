@@ -9,14 +9,23 @@ header:
   image: /images/about_1.jpeg
   teaser: /images/about_1.jpeg
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: /images/2023-09-26-first/zuckerberg.jpg
+  - url: /images/portfolio/kwdc.png
+    image_path: /images/portfolio/kwdc.png
+    alt: "placeholder image 3"
+  - url: /images/portfolio/deep.jpg
+    image_path: /images/portfolio/deep.jpg
     alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /images/2023-09-26-first/zuckerberg.jpg
+  - url: /images/portfolio/start.jpg
+    image_path: /images/portfolio/start.jpg
+    alt: "placeholder image 3"
+  - url: /images/portfolio/hackjudge.jpg
+    image_path: /images/portfolio/hackjudge.jpg
     alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: /images/2023-09-26-first/zuckerberg.jpg
+  - url: /images/portfolio/hack.JPG
+    image_path: /images/portfolio/hack.JPG
+    alt: "placeholder image 3"
+  - url: /images/portfolio/idea.jpg
+    image_path: /images/portfolio/idea.jpg
     alt: "placeholder image 3"
 ---
 
@@ -37,7 +46,7 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 + 2024 AI Education City Program, **Academic Research Mentor** for Incheon Jinsan Science High School
 + Republic of Korea Army, **Completed Military Service** as a Medic
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include gallery caption="it's me." %}
 
 ## Key Skills
 + `Unity` / C#
@@ -59,7 +68,7 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 
 <div class = "notice--warning">
     <h4> KWDC 2023, Volunteer Staff </h4>
-    <img src = "/images/kwdc.png"> 
+    <img src = "/images/portfolio/kwdc.png"> 
     <div>
         <br>
         <i>Participated as an organizing staff member for Korea's largest iOS and Apple ecosystem developer conference held at COEX Grand Ballroom. Successfully managed the event with over 1,000 attendees, ensuring smooth operations and engaging in networking with various developers.</i> 
@@ -72,26 +81,12 @@ I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook
 </div>
 
 
-<div class = "notice--warning">
-    <h4> Lambda-thon: Take a Risk, Like a Silicon Valley </h4>
-    <img src = "/images/lambda.png" class = "img-width-seventy align-center">
-    <br>
-    <i> As a core member of a side project club, I successfully planned and safely managed a 48-hour ideathon event, fostering entrepreneurial and business skills among members.</i>
-</div>
-
-<div class = "notice--warning">
-    <h4>Village, a shared personal item rental service</h4>
-    <div class = "img-width-seventy align-center">
-        {% include video id="P52dD59hvxI" provider="youtube"%}
-    </div>   
-
-<i>Village is a location-based rental service that helps users conveniently and affordably borrow desired items from nearby areas. Whether you need a product for a short time but find it too expensive to purchase, or want to try out something without committing to buying it, Village enables you to rent items for your preferred duration in your neighborhood or any desired location.</i>
-</div>
-
-
 
 ## Hobbies
+
 ![](/images/about2.jpg){: .img-width-half .align-center}
+<br>
+![](/images/rooney.JPG){: .img-width-half .align-center}
 
 I’ve been a dedicated fan of **Manchester United** ⚽️ for over 10 years and also root for the esports team **HLE(Hanwha Life Esports)** 🎮!
 
