@@ -1,5 +1,5 @@
 ---
-title: "99클럽 JAVA 코딩테스트 예시답안 4일차 [세로읽기]"
+title: "99클럽 JAVA 코딩테스트 예시답안 5일차 [세로읽기]"
 layout: single
 Typora-root-url: ../
 categories: 99CLUB
