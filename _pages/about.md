@@ -25,7 +25,7 @@ gallery:
     image_path: /images/portfolio/hack.JPG
     alt: "placeholder image 3"
   - url: /images/portfolio/idea.jpg
-    image_path: /images/portfolio/idea.jpg
+    image_path: /images/portfolio/idea.JPG
     alt: "placeholder image 3"
 ---
 
