@@ -237,3 +237,60 @@ for i in range(1, n + 1):
 # 결과 출력
 print(*sorted(result))
 ```
+
+
+## pypy3 되는 코드 (DFS + DP)
+
+```python
+from collections import deque
+import sys
+
+input = sys.stdin.read
+data = input().split("\n")
+
+n, m = map(int, data[0].split())
+dic = {i: [] for i in range(1, n + 1)}
+
+# 그래프 입력 받기
+for i in range(1, m + 1):
+    if data[i]:
+        a, b = map(int, data[i].split())
+        dic[b].append(a)  
+
+dp = [-1] * (n + 1) # <------초기값을 -1로 설정.
+
+def bfs(start):
+    if dp[start] != -1:
+        return dp[start]  # <------------if 초기값인 -1이 아니라면, 거쳐간 것으로 판단 후 그 값을 그냥 가져와 반영.
+
+    visited = [False] * (n + 1)
+    queue = deque([start])
+    visited[start] = True
+    count = 0
+
+    while queue:
+        node = queue.popleft()
+        for neighbor in dic[node]:
+            if not visited[neighbor]:
+                visited[neighbor] = True
+                queue.append(neighbor)
+                count += 1 
+
+    dp[start] = count  # <-------아니라면 queue를 바탕으로 계산된 값을 dp테이블에 저장해서 계속 사용할 수 있도록 합니다.
+    return count # <--------dp에서 따로 가져올 필요없이, 처음 계산된 값이기 때문에 queue 과정을 모두 끝낸 count 값 리턴
+
+max_hack = 0
+result = []
+
+for i in range(1, n + 1):
+    hack_count = bfs(i)
+    if hack_count > max_hack:
+        max_hack = hack_count
+        result = [i]
+    elif hack_count == max_hack:
+        result.append(i)
+
+print(" ".join(map(str, result)))
+
+
+```
