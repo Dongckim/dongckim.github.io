@@ -1,5 +1,5 @@
 ---
-title: "99클럽 JAVA 코딩테스트 예시답안 9일차 [빙산]"
+title: "99클럽 JAVA 코딩테스트 예시답안 10일차 [빙산]"
 layout: single
 Typora-root-url: ../
 categories: 99CLUB
