@@ -111,7 +111,8 @@ DOM에서 발생하는 Children을 클릭했을 때 Parent까지 이벤트가 �
 - eventObject는 group이고, object는 직접 행위가 작동된 Mesh가 될 것이다.
 
 ### Raycaster만들기
-```Jsx
+
+```jsx
 raycaster.setFromCamera(pointer, camera);
 const intersect = raycaster.intersectObject(e.eventObject, true);
 if(intersect.length > 0){
