@@ -1,5 +1,5 @@
 ---
-title: "99클럽 JAVA 코딩테스트 예시답안 10일차 [체스판 다시 칠하기]"
+title: "99클럽 JAVA 코딩테스트 예시답안 11일차 [체스판 다시 칠하기]"
 layout: single
 Typora-root-url: ../
 categories: Three.js
