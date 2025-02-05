@@ -2,8 +2,8 @@
 title: "JAVA Coding Test Greedy"
 layout: single
 Typora-root-url: ../
-categories: Three.js
-tag: light
+categories: Algorithm
+tag: greedy
 use_math: true
 ---
 
