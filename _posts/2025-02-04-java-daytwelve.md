@@ -2,8 +2,8 @@
 title: "99클럽 JAVA 코딩테스트 예시답안 12일차 [숫자 정사각형]"
 layout: single
 Typora-root-url: ../
-categories: Three.js
-tag: light
+categories: 99CLUB
+tag: java
 use_math: true
 ---
 

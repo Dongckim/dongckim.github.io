@@ -3,7 +3,7 @@ title: "Three.js로 3D 플랫폼 개발 Interaction & Event"
 layout: single
 Typora-root-url: ../
 categories: Three.js
-tag: light
+tag: [interaction, event]
 use_math: true
 ---
 
