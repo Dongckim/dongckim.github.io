@@ -90,6 +90,39 @@ public class Destroyer : MonoBehaviour
 
 - 모든 빌딩에는 동일한 스크립트(mover와 destroyer)이 포함된 상태로 움직일 것이다.
 
+## Spawner
+
+```c#
+using UnityEngine;
+
+public class Spawner : MonoBehaviour
+{
+    [Header("Settings")]
+    public float minSpawnDelay;
+
+    public float maxSpawnDelay;
+
+    [Header("Reference")]
+
+    public GameObject[] gameObjects;
+
+    void Start()
+    {
+        Invoke("Spawn", Random.Range(minSpawnDelay, maxSpawnDelay));
+    }
+    void Spawn(){
+        GameObject randomObject = gameObjects[Random.Range(0, Range(0, gameObjects.Length))];
+        Instantiate(randomObject, transform.position, Quaternion.identity);
+        Invoke("Spawn", Random.Range(minSpawnDelay, maxSpawnDelay));
+    }
+}
+
+```
+- 아래에서의 사진처럼 gameobject를 자유롭게 추가하는 칸을 만들 수 있게 된다. minimum과 maximum을 정해서 그 사이 Range아네서 random으로 배열 안의 object를 마구 생성할 수 있게 된 것이다.
+
+
+![]({{site.url}}/images/2025-02-08-unity-prefab/spawner.png)
+
 ## 아이템들도?
 
 아이템도 동일하지만, collider가 추가되어야 할 것 같다. 이 이야기는 다음 포스팅에서 이어서 해보자.
