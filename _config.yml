@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ARchitect ALEX"
+title                    : "XRchitect ALEX"
 title_separator          : "|"
 subtitle                 : "Small Big Success Cycle"
 name                     : "Dongchan Alex Kim"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Dongchan Alex Kim"
   avatar           : "/images/sample.png"
-  bio              : "Developer with a passion for innovating the world through code, developer you'd want to collaborate with—eager to create together."
+  bio              : "Engineer with a passion for innovating the world through XR, Engineer you'd want to collaborate with eager to create together."
   location         : "NY, United States"
   email            : #"dongchan.kim.1@stonybrook.edu"
   links:
@@ -148,7 +148,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/dck_alx"
-
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtu.be/S_RcZNk90js"
 
 # Reading Files
 include:
