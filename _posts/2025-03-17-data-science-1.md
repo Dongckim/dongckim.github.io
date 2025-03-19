@@ -7,6 +7,8 @@ tag: [CursorAI, GenAI]
 use_math: true
 ---
 
+Don't Think AI Is Taking Engineer Jobs! It's Empowering Me!😅"
+
 ## How Generative AI is Changing Engineers
 
 ![]({{site.url}}/images/2025-03-17-data-science-1/hey.png){: .align-center .img-width-half}
