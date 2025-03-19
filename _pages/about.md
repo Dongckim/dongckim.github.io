@@ -33,8 +33,9 @@ Hi, there👋👋 <br>
 I'm **Dongchan**(just call me alex), and a student **AR Engineer** in Stonybrook University. I’m passionate about building immersive AR/VR experiences using `Unity` and `Three.js`. I love turning creative ideas into interactive realities that make people say, “Wow.. this feels real!” 😲 <br>
 
 ## Career
-+ The State University of New York, Stony Brook University, Major in Technological Systems Management, Specialized in *Computer Science*
-+ **Vice President**, LAMBDA Side Project Club
++ The State University of New York, Stony Brook University, Major in Technological Systems Management, Specialized in *Computer Science* **(~current)**
++ **Vice President**, [**LAMBDA at SUNY Korea**](http://lambda-idea.com/about), Side Project Club **(~current)**
++ **Junior Developer**, [**XREAL**](https://www.xreal.info/), XR Developer Group at Seoul National University **(~current)**
 + Ministry of Science and ICT, Youth SW Mentorship Hackathon, Served as **Judge and Mentor Coach**
 + 2024 Google Saessak Hackathon, Seoul City Competition, **Top 10 Finalist** (Honorable Prize)
 + Seoul National University OUTTA AI Deep Learning Camp, **Double Award Winner** (Participant Excellence Award, Team Excellence Award)

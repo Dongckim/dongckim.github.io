@@ -1,5 +1,5 @@
 ---
-title: "Kimchi-Run"
+title: "Online Store Market Website"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 header:
   image: /images/2023-09-26-first/zuckerberg.jpg

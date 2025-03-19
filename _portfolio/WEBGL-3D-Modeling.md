@@ -1,5 +1,5 @@
 ---
-title: "Threejs(R3F) 3D Modeling"
+title: "3D Modeling E-Commerce"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 header:
   image: /images/2023-09-26-first/zuckerberg.jpg
