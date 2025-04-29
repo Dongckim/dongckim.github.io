@@ -222,7 +222,7 @@ x.parent.color == BLACK
 
 → '어떤 경로로 가든 검정 노드 개수 같음' 규칙 만족
 
-### case2. 삼촌 y는 검정색, 그리고 x는 오른쪽 자식
+#### case2. 삼촌 y는 검정색, 그리고 x는 오른쪽 자식
 
 이 상황은 독립적인 해결 케이스가 아니야. → Case 3으로 가기 위한 "준비 작업"이야!
 
@@ -232,7 +232,7 @@ x.parent.color == BLACK
 
 3. 이제 Case 3로 이동한다
 
-### case3. 삼촌 y는 검정색, 그리고 x는 왼쪽 자식
+#### case3. 삼촌 y는 검정색, 그리고 x는 왼쪽 자식
 
 삼촌(y)이 검정색 ⬛ (또는 null ➔ 검정 취급) → x는 부모의 왼쪽 자식임(균형 복구)작업이다.
 
@@ -242,6 +242,144 @@ x.parent.color == BLACK
 
 3. x의 조부모가 존재한다면, 거기서 오른쪽 회전 (rotateRight) 수행한다
 
+## Deletion
+
+간단한 종료 조건 → x가 root거나 x가 RED이면 ➔ 걍 끝!
+- root이면 그냥 남겨둬도 됨
+- red이면 black 부모 밑에 있어서 위반 아님
+이 경우, 그냥 x를 black으로 바꾸거나 삭제하면 됨.
+
+**x가 root도 아니고, BLACK이면 규칙 위반 가능성 있음 ➔ fix-up 필요**
+
+### Deletion Setting 4 cases
+
+1. Case 1: colorOf(sib) == RED
+    
+    형제 노드 sib이 RED라면 ➔ sib의 색과 부모의 색을 서로 교환하고, 부모를 기준으로 다시 시도
+
+    의도: 빨간 sib을 위로 보내서 black sibling이 생기도록 만듦
+
+    "Case 1" 이후 → Case 2로 넘어감
+
+2. Case 2: colorOf(leftOf(sib)) == BLACK && colorOf(rightOf(sib)) == BLACK
+    
+    sib의 양쪽 자식이 둘 다 BLACK (또는 NULL로 간주)
+
+    ➔ sib을 RED로 칠하고 x를 부모로 올림   
+    ➔ 상위 레벨에서 다시 fix-up 해야 할 수도 있음
+
+3. Case 3: colorOf(rightOf(sib)) == BLACK
+    
+    sib의 오른쪽 자식만 BLACK (왼쪽은 RED일 수 있음)
+
+    ➔ sib과 왼쪽 자식 색깔을 바꾸고, sib을 오른쪽으로 회전   
+    ➔ 이 과정을 통해 Case 4로 넘어가게 유도
+
+4. Case 4: colorOf(rightOf(sib)) == RED
+    
+    sib의 오른쪽 자식이 RED
+
+    ➔ sib을 부모의 색으로 칠하고, 부모와 오른쪽 자식을 BLACK으로 칠함   
+    ➔ 부모를 중심으로 왼쪽 회전   
+    ➔ fix-up 완료 (루프 탈출)
+
+```java
+if (colorOf(sib) == RED) {
+    // Case 1: 색깔 바꾸고 부모를 새 기준으로
+}
+if (colorOf(leftOf(sib)) == BLACK && colorOf(rightOf(sib)) == BLACK) {
+    // Case 2: sib을 RED로 만들고 x를 위로 올림
+}
+else {
+    if (colorOf(rightOf(sib)) == BLACK) {
+        // Case 3: sib을 오른쪽 회전
+    }
+    else {
+        // Case 4: sib을 부모 색으로 칠하고 부모를 왼쪽 회전
+    }
+}
+```
+
+### Case1: colorOf(sib) == RED
+
+x는 삭제 후 "double black" 상태 (여기선 4가 삭제됨 → x는 4의 자리)
+
+1. Set sib's color to black
+2. Set X's parent's color to red
+3. Rotate x's parent left
+    sib이 오른쪽에 있는 RED노드이므로, sib을 부모로 끌어올려 black sibling이 생기도록 만들기 위해 회전   
+    회전 후에는 이제 RED인 노드(8)가 sib이 되어, 다음 case로 진행가능.
+4. Set sib to rightOf(parentOf(x))
+
+Why is sib ← rightOf(parentOf(x)) and not left;
+- 현재 x가 왼쪽 자식이기 때문에 sib은 항상 오른쪽 자식.
+
+### Case2: colorOf(leftOf(sib)) == BLACK && colorOf(rightOf(sib)) == BLACK
+
+Case 1에서 sib이 RED인 걸 BLACK으로 만들었기 때문에, 그 이후 sib은 BLACK임이 논리적으로 보장
+
+1. Set sib's color to red.
+2. Set x to its parent.
+3. Continue on with the main loop.
+
+### Case3: colorOf(rightOf(sib)) == BLACK
+
+왜 sib의 왼쪽 자식이 RED임이 보장되는가? → Case 1과 Case 2가 이미 아닌 경우라는 조건
+
+- Case 1: sib이 RED → 아님 (지금 sib은 BLACK)
+- Case 2: sib의 왼쪽, 오른쪽 자식 모두 BLACK → 아님 (지금 오른쪽 자식은 BLACK이지만, 왼쪽 자식은 RED여야 함)
+
+1. Set the color of sib's left child to black
+2. Set sib's color to red
+3. rotateRight(sib)
+4. Set sib to be the sibling of X
+
+It seems there's no improvement at all, but we directly move on the case 4.
+
+### Case4: colorOf(rightOf(sib)) == RED
+
+Color of Sib must be black by now (Why?)
+Case 3에서 이미 sib을 black으로 만들었기 때문. Case 3의 마지막 단계는 rotateRight(sib) 하고, sib = sibling of x로 갱신.
+
+1. Set sib's color to that of x's parent 
+2. Set X's parent's color to black
+3. Set sib's right child's color to black
+4. Rotate left on x's parent
+5. Set x to be the root (this is done to break out of the loop)
+
+**Since x is now root, the loop is ended. What next?**
+
+삭제 대상 노드 (예: 5번 노드) 는 이미 트리 구조상에서 삭제됨. 하지만 Red-Black Tree는 삭제로 인해 발생한 black-height 불균형을 해결해야 하므로, fixAfterDeletion(x) 같은 함수가 호출.
+
+위 case 4에서는 x를 루트로 만들면서 루프를 종료 → 루프 종료 시점은 fix-up이 완료 → 결과 트리가 valid한 Red-Black Tree임이 보장된다.
+
+
+### Deletion 정리
+``` java
+while (조건) {
+    Case 1: sib이 RED
+        → 색 바꾸고 rotate, sib 갱신
+    Case 2: sib과 자식들이 BLACK
+        → sib을 RED로, x를 부모로 올림
+    Case 3/4: sib 자식 중 하나 RED
+        → rotate, 색 바꾸고 종료
+}
+```
+
+#### 시간 복잡도?
+
+1. 삭제할 노드 찾기 — O(log n)
+    이진 탐색 트리이므로, 값 v를 가진 노드를 찾는 데 필요한 시간은 트리의 높이에 비례함.
+    - Red-Black Tree는 항상 균형 잡힌 이진 탐색 트리이므로, 높이는 O(log n).
+
+2. 삭제 수행 — O(1) ~ O(log n)
+    삭제 대상 노드가 자식이 하나뿐이거나 없는 경우, 단순 삭제로 끝나므로 시간은 작음.
+    - 그러나 양쪽 자식이 모두 있는 경우, 후계자(predecessor 또는 successor)를 찾아서 값을 바꾸고 다시 삭제해야 함 → 이 과정도 O(log n)
+
+3. Fix-up 과정 (recolor + rotate) — O(log n)
+    삭제로 인해 Red-Black Tree의 속성이 깨질 수 있으므로, 재색칠 (recoloring) 과 회전 (rotation)
+
+
 
 ## 레드-블랙 트리의 최대 높이 (Worst-case Height)
 모든 노드를 가능한 한 많이 빨간색으로 채우면 트리의 높이가 최대로 늘어남. 그래도 최악의 경우에도 높이는 2 log₂(n) 보다 작다.
@@ -250,7 +388,6 @@ x.parent.color == BLACK
 
 예시: n = 1,000,000 (백만 개 노드)라면, 레드-블랙 트리의 높이 ≈ 40
 
-## Deletion
 
 ## 예시문제
 
