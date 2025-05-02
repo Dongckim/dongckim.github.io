@@ -2,7 +2,7 @@
 title: "How GenAI is Transforming S/W Development"
 layout: single
 Typora-root-url: ../
-categories: GenAI
+categories: EST371
 tag: [CursorAI, GenAI]
 use_math: true
 ---

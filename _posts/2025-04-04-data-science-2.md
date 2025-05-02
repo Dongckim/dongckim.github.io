@@ -2,7 +2,7 @@
 title: "Understanding MCP as a Software Engineer"
 layout: single
 Typora-root-url: ../
-categories: GenAI
+categories: EST371
 tag: [MCP, GenAI]
 use_math: true
 ---
