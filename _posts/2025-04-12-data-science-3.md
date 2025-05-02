@@ -2,7 +2,7 @@
 title: "Power to the People, Through My Lens: An Interpretive Take on LLMs"
 layout: single
 Typora-root-url: ../
-categories: GenAI
+categories: EST371
 tag: [LLM, GenAI]
 use_math: true
 ---
