@@ -1,5 +1,5 @@
 ---
-title: "Python Coding Test - Encode and Decode Strings (Chunked Encoding)"
+title: "Blind75 - Encode and Decode Strings (Chunked Encoding)"
 layout: single
 Typora-root-url: ../
 categories: Algorithm

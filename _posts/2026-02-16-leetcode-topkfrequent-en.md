@@ -1,5 +1,5 @@
 ---
-title: "Python Coding Test - Top K Frequent Elements (Heap & Bucket Sort)"
+title: "Blind75 - Top K Frequent Elements (Heap & Bucket Sort)"
 layout: single
 Typora-root-url: ../
 categories: Algorithm

@@ -1,5 +1,5 @@
 ---
-title: "Python Coding Test - Longest Consecutive Sequence (정렬 기반 접근법)"
+title: "Blind75 - Longest Consecutive Sequence (정렬 기반 접근법)"
 layout: single
 Typora-root-url: ../
 categories: Algorithm
