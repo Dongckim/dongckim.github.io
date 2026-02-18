@@ -1,5 +1,5 @@
 ---
-title: "Python Coding Test - Group Anagrams (Hash Map & Visited)"
+title: "Blind75 - Group Anagrams (Hash Map & Visited)"
 layout: single
 Typora-root-url: ../
 categories: Algorithm
