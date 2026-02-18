@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Dongchan Alex Kim"
-  avatar           : "/images/sample.png"
-  bio              : "Engineer with a passion for innovating the world through XR, Engineer you'd want to collaborate with eager to create together."
+  avatar           : "/images/profile.png"
+  bio              : "🏆 MIT Reality Hack 2026 Grand Prize Winner, System Design & Architecture-focused Fullstack Engineer"
   location         : "NY, United States"
   email            : #"dongchan.kim.1@stonybrook.edu"
   links:
@@ -116,7 +116,7 @@ author:
 
     - label: "CV"
       icon: "fas fa-fw fa-link"
-      url: "https://drive.google.com/file/d/1wECGZOtTBbxqMDg7t63bbWXzXEmMTKLq/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1T4PRy_MBxluxZ8C4a2cVUEv0ULwEC9d6/view?usp=sharing"
 
     - label: " LinkedIn"
       icon: "fab fa-linkedin"
@@ -126,11 +126,6 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dongckim"
 
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/dck_alx"
-
-    
     # - label: "YouTube"
     #   icon: "fab fa-youtube"
     #   url: "https://instagram.com/dck_alx"
@@ -145,9 +140,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/dongckim99/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/dck_alx"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://youtu.be/S_RcZNk90js"
