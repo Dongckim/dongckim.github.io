@@ -114,7 +114,7 @@ I'm a **Software Engineer** studying Computer Science at Stony Brook University,
 
 <div style="display: flex; gap: 10px; justify-content: center;">
   <img src="/images/about2.jpg" style="width: 48%;">
-  <img src="/images/rooney.JPG" style="width: 48%;">
+  <img src="/images/rooney.jpg" style="width: 48%;">
 </div>
 
 I've been a dedicated fan of **Manchester United** for over 10 years and also root for the esports team **HLE (Hanwha Life Esports)**!
