@@ -1,35 +1,39 @@
 /* ==========================================================================
-   Contrast skin
+   Meta-inspired skin
    ========================================================================== */
 
 /* Colors */
-$text-color: #000 !default;
-$muted-text-color: $text-color !default;
-$primary-color: #ff0000 !default;
-$border-color: mix(#fff, $text-color, 75%) !default;
-$footer-background-color: #000 !default;
-$link-color: #0000ff !default;
-$masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
+$background-color: #F0F2F5 !default;
+$text-color: #1C1E21 !default;
+$muted-text-color: #65676B !default;
+$primary-color: #1877F2 !default;
+$border-color: #CED0D4 !default;
+$footer-background-color: #1C1E21 !default;
+$link-color: #1877F2 !default;
+$masthead-link-color: #1C1E21 !default;
+$masthead-link-color-hover: #1877F2 !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
-/* contrast syntax highlighting (base16) */
-$base00: #000000 !default;
-$base01: #242422 !default;
-$base02: #484844 !default;
-$base03: #6c6c66 !default;
-$base04: #918f88 !default;
-$base05: #b5b3aa !default;
-$base06: #d9d7cc !default;
-$base07: #fdfbee !default;
-$base08: #ff6c60 !default;
-$base09: #e9c062 !default;
-$base0a: #ffffb6 !default;
-$base0b: #a8ff60 !default;
-$base0c: #c6c5fe !default;
-$base0d: #96cbfe !default;
-$base0e: #ff73fd !default;
-$base0f: #b18a3d !default;
+$toc-color: #1877F2 !default;
+$scrollify-color: #E7F3FF !default;
+
+/* Meta-style syntax highlighting (base16) */
+$base00: #F0F2F5 !default;
+$base01: #E4E6EB !default;
+$base02: #CED0D4 !default;
+$base03: #8A8D91 !default;
+$base04: #65676B !default;
+$base05: #1C1E21 !default;
+$base06: #050505 !default;
+$base07: #FFFFFF !default;
+$base08: #FA383E !default;
+$base09: #E8912D !default;
+$base0a: #F5C518 !default;
+$base0b: #31A24C !default;
+$base0c: #1877F2 !default;
+$base0d: #1877F2 !default;
+$base0e: #9B59B6 !default;
+$base0f: #E8912D !default;
 
 .page__content {
   .notice,
@@ -43,7 +47,7 @@ $base0f: #b18a3d !default;
 }
 
 .page__footer {
-  color: #fff !important; // override
+  color: #B0B3B8 !important;
 }
 
 .page__footer-follow .social-icons i,
