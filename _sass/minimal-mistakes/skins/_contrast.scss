@@ -17,22 +17,22 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 $toc-color: #1877F2 !default;
 $scrollify-color: #E7F3FF !default;
 
-/* Meta-style syntax highlighting (base16) */
-$base00: #F0F2F5 !default;
-$base01: #E4E6EB !default;
-$base02: #CED0D4 !default;
-$base03: #8A8D91 !default;
-$base04: #65676B !default;
-$base05: #1C1E21 !default;
-$base06: #050505 !default;
+/* Syntax highlighting — dark theme (One Dark inspired) */
+$base00: #1E2030 !default;  /* code block background */
+$base01: #2D3250 !default;
+$base02: #3B4261 !default;
+$base03: #636D8B !default;  /* line numbers, gutters */
+$base04: #7C86A4 !default;  /* comments */
+$base05: #C8CDD9 !default;  /* default text — light on dark bg */
+$base06: #D5D9E5 !default;
 $base07: #FFFFFF !default;
-$base08: #FA383E !default;
-$base09: #E8912D !default;
-$base0a: #F5C518 !default;
-$base0b: #31A24C !default;
-$base0c: #1877F2 !default;
-$base0d: #1877F2 !default;
-$base0e: #9B59B6 !default;
+$base08: #FF6B6B !default;  /* variables, errors */
+$base09: #FFB347 !default;  /* numbers, booleans */
+$base0a: #FFD93D !default;  /* types */
+$base0b: #6BCB77 !default;  /* strings */
+$base0c: #4ECDC4 !default;  /* operators, regex */
+$base0d: #74B9FF !default;  /* functions */
+$base0e: #C77DFF !default;  /* keywords */
 $base0f: #E8912D !default;
 
 .page__content {
