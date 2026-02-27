@@ -4,18 +4,61 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
 {% if paginator %}
   {% assign posts = paginator.posts %}
 {% else %}
   {% assign posts = site.posts %}
 {% endif %}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
+<div class="stats-bar">
+  <div class="stats-bar__total">
+    <span class="stats-bar__number">{{ site.posts | size }}</span>
+    <span class="stats-bar__label">Total Posts</span>
+  </div>
+  <div class="stats-bar__divider"></div>
+  {% assign algo = site.categories["Algorithm"] %}
+  <a href="{{ site.baseurl }}/categories/#algorithm" class="stats-bar__item">
+    <span class="stats-bar__number">{{ algo | size }}</span>
+    <span class="stats-bar__label">Algorithm</span>
+  </a>
+  <div class="stats-bar__divider"></div>
+  {% assign sysdesign = site.categories["SystemDesign"] %}
+  <a href="{{ site.baseurl }}/categories/#systemdesign" class="stats-bar__item">
+    <span class="stats-bar__number">{{ sysdesign | size }}</span>
+    <span class="stats-bar__label">System Design</span>
+  </a>
+</div>
+
+{% assign featured = posts | first %}
+
+<div class="featured-post">
+  <a href="{{ featured.url | relative_url }}" class="featured-post__link">
+    <div class="featured-post__image">
+      {% if featured.header.teaser %}
+        <img src="{{ featured.header.teaser | relative_url }}" alt="">
+      {% else %}
+        <div class="featured-post__placeholder">
+          <span>{{ featured.categories | first | default: "Latest" }}</span>
+        </div>
+      {% endif %}
+      <div class="featured-post__badge">Latest</div>
+    </div>
+    <div class="featured-post__body">
+      <h2 class="featured-post__title">{{ featured.title }}</h2>
+      <p class="featured-post__meta">{{ featured.date | date: "%B %d, %Y" }} · {{ featured.categories | first }}</p>
+      {% if featured.excerpt %}
+        <p class="featured-post__excerpt">{{ featured.excerpt | markdownify | strip_html | truncate: 300 }}</p>
+      {% endif %}
+      <span class="featured-post__read">Read more →</span>
+    </div>
+  </a>
+</div>
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+<div class="entries-grid">
+  {% for post in posts offset:1 %}
+    {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
 
