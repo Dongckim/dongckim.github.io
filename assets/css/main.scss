@@ -534,9 +534,16 @@ a {
   }
 
   table {
+    display: table !important;
+    width: 100% !important;
+    table-layout: fixed;
     border-radius: 8px;
     overflow: hidden;
     border: 1px solid #E4E6EB;
+
+    th, td {
+      word-break: break-word;
+    }
 
     th {
       background: #F0F2F5;
