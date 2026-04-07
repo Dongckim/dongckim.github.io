@@ -37,7 +37,7 @@ blur_detector → scene_change → hybrid_roi_scoring → encoder
 
 POWER_SAVE 배터리 모드에서 `ws=0.0`이 되면 `saliency_dft`의 결과는 최종 점수에 아무 영향도 없다.
 
-$$S = w_c \cdot S_c + w_t \cdot S_t + \underbrace{0.0 \cdot S_s}_{=0} + \cdots$$
+$$S = w_c \cdot S_c + w_t \cdot S_t + (0.0 \cdot S_s) + \cdots \quad \because w_s = 0.0$$
 
 그런데도 `saliency_dft`는 매 프레임 실행된다. 왜냐면 파이프라인이 그냥 순서대로 실행되는 구조라서, 결과가 쓰이든 안 쓰이든 신경 쓰지 않았으니까.
 

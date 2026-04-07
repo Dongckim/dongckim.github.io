@@ -212,7 +212,11 @@ jit           0.15 ms    2.1×      numba @jit → LLVM
 
 실제 측정값으로 암달의 법칙을 계산했다.
 
-$$\text{Pipeline Speedup} = \frac{1}{\underbrace{0.852}_{\text{MSER}} + \frac{\overbrace{0.044}^{\text{saliency}}}{2.1} + \underbrace{0.104}_{\text{나머지}}} \approx 1.024$$
+$$\text{Pipeline Speedup} = \frac{1}{0.852 + \dfrac{0.044}{2.1} + 0.104} \approx 1.024$$
+
+- $0.852$: text\_roi\_mser 비율 (컴파일 불가)
+- $0.044$: saliency\_dft 비율 (2.1× 향상)
+- $0.104$: 나머지 compilable 노드
 
 커널 2.1배 향상이 파이프라인 전체에선 **2.4%**로 희석된다. 이게 처음에 설명한 2%다.
 
